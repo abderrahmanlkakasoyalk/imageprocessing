@@ -7,8 +7,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import pickle
 from PIL import Image
-from keras.layers import Input, Conv2D, MaxPool2D, Flatten, ZeroPadding2D, concatenate, Dense, GlobalAveragePooling1D, Reshape
-from keras.models import Model
+from tensorflow.keras.layers import Input, Conv2D, MaxPool2D, Flatten, ZeroPadding2D, concatenate, Dense, GlobalAveragePooling1D, Reshape
+from tensorflow.keras.models import Model
 
 # Load the tokenizer
 with open('tokenizer.pkl', 'rb') as f:
