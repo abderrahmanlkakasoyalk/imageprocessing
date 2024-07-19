@@ -13,7 +13,7 @@ import os
 
 # Verify the existence of required files
 tokenizer_path = 'tokenizer.pkl'
-model_path = 'best_model.h5'
+model_path = 'best_model.keras'
 
 if not os.path.exists(tokenizer_path):
     st.error(f"Tokenizer file not found: {tokenizer_path}")
